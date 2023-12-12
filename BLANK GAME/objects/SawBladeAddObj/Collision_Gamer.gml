@@ -3,7 +3,7 @@ if !(InvSpace.IsInInventory(SawBladeObj)) {
 	instance_create_layer(x,y,"Gun",SawBladeObj);
 }
 else {
-	if (SawBladeObj.level<5) {
+	if (SawBladeObj.level<8) {
 		SawBladeObj.level+=1	
 	}
 }
