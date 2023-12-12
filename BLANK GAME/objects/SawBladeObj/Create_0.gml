@@ -1,2 +1,2 @@
 fireDelay = 5;
-level = 5;
+level = 1;

@@ -5,17 +5,21 @@ key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
 //WALK
-if(place_meeting(x,y,StoneBCKObj)) {
-	walksp = 2.2;	
-}
-else {
-	walksp = 2;
-}
+walkmods = 1 + TicTacsObj.getSpeed();
+walkmods = walkmods * walksp;
 
 var moveHori = key_right - key_left;
-hsp = moveHori * walksp;
 var moveVerti = key_down - key_up;
-vsp = moveVerti * walksp;
+if(moveHori!=0 && moveVerti!=0)
+{
+hsp = moveHori * walkmods / 1.41;
+vsp = moveVerti * walkmods / 1.41;
+}
+else
+{
+hsp = moveHori * walkmods;
+vsp = moveVerti * walkmods;
+}
 
 
 
