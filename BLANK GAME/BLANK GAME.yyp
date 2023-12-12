@@ -57,6 +57,7 @@
     {"id":{"name":"GranadeObj","path":"objects/GranadeObj/GranadeObj.yy",},},
     {"id":{"name":"HolyHandGranade","path":"sprites/HolyHandGranade/HolyHandGranade.yy",},},
     {"id":{"name":"Enemy_D","path":"sprites/Enemy_D/Enemy_D.yy",},},
+    {"id":{"name":"TicTacsAddObj","path":"objects/TicTacsAddObj/TicTacsAddObj.yy",},},
     {"id":{"name":"CrosshairObj","path":"objects/CrosshairObj/CrosshairObj.yy",},},
     {"id":{"name":"LaserGun","path":"sprites/LaserGun/LaserGun.yy",},},
     {"id":{"name":"Boom","path":"sprites/Boom/Boom.yy",},},

@@ -4,11 +4,11 @@
 
 for(i=0;i<InvSize;i++)
 {
-	inventory[i]=0;
+	inventory[i]=-1;
 	inventoryoffset[i][0]=0;
 	inventoryoffset[i][1]=0;
 	inventorymult[i]=1;
-	itemInventory[i]=0;
+	itemInventory[i]=-1;
 }
 
 function IsInInventory(ObjWeapon)
@@ -30,7 +30,7 @@ function AddWeapon(OBJweapon)
 	zn=-1;
 	for(i=0;i<InvSize;i++)
 	{
-		if(inventory[i]==0)
+		if(inventory[i]==-1)
 		{
 			zn=i;
 			break;
@@ -58,7 +58,7 @@ function AddItem(ObjItem)
 	zn=-1;
 	for(i=0;i<InvSize;i++)
 	{
-		if(itemInventory[i]==0)
+		if(itemInventory[i]==-1)
 		{
 			zn=i;
 			break;
