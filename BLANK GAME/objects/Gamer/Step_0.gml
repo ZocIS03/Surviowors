@@ -5,12 +5,7 @@ key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
 //WALK
-if(place_meeting(x,y,StoneBCKObj)) {
-	walksp = 2.2;	
-}
-else {
-	walksp = 2;
-}
+
 
 var moveHori = key_right - key_left;
 hsp = moveHori * walksp;
