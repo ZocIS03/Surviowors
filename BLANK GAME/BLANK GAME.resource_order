@@ -22,6 +22,7 @@
     {"name":"Item","order":7,"path":"sprites/Item/Item.yy",},
     {"name":"GunObj","order":8,"path":"objects/GunObj/GunObj.yy",},
     {"name":"DirtObj","order":3,"path":"objects/DirtObj/DirtObj.yy",},
+    {"name":"InvSpace","order":15,"path":"objects/InvSpace/InvSpace.yy",},
     {"name":"Gun","order":10,"path":"sprites/Gun/Gun.yy",},
     {"name":"Wood","order":6,"path":"sprites/Wood/Wood.yy",},
     {"name":"BulletObj","order":9,"path":"objects/BulletObj/BulletObj.yy",},
