@@ -71,7 +71,6 @@
     {"id":{"name":"Gamer","path":"objects/Gamer/Gamer.yy",},},
     {"id":{"name":"Crosshair","path":"sprites/Crosshair/Crosshair.yy",},},
     {"id":{"name":"CameraObj","path":"objects/CameraObj/CameraObj.yy",},},
-    {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"LaserObj","path":"objects/LaserObj/LaserObj.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"TurretBossTop","path":"sprites/TurretBossTop/TurretBossTop.yy",},},

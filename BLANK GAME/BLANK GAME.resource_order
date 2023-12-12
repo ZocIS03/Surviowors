@@ -52,7 +52,6 @@
     {"name":"Gamer","order":1,"path":"objects/Gamer/Gamer.yy",},
     {"name":"Crosshair","order":14,"path":"sprites/Crosshair/Crosshair.yy",},
     {"name":"CameraObj","order":14,"path":"objects/CameraObj/CameraObj.yy",},
-    {"name":"Note1","order":27,"path":"notes/Note1/Note1.yy",},
     {"name":"LaserObj","order":15,"path":"objects/LaserObj/LaserObj.yy",},
     {"name":"TurretBossTop","order":22,"path":"sprites/TurretBossTop/TurretBossTop.yy",},
     {"name":"BoomObj","order":24,"path":"objects/BoomObj/BoomObj.yy",},
