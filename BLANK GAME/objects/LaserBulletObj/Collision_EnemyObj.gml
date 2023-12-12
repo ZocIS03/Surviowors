@@ -1,4 +1,4 @@
 with (other)
 {
-	hp += -2;
+	hp += -(2+LaserObj.level);
 }
