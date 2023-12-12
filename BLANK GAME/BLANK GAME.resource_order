@@ -40,6 +40,7 @@
     {"name":"GranadeObj","order":23,"path":"objects/GranadeObj/GranadeObj.yy",},
     {"name":"HolyHandGranade","order":19,"path":"sprites/HolyHandGranade/HolyHandGranade.yy",},
     {"name":"Enemy_D","order":13,"path":"sprites/Enemy_D/Enemy_D.yy",},
+    {"name":"TicTacsAddObj","order":25,"path":"objects/TicTacsAddObj/TicTacsAddObj.yy",},
     {"name":"CrosshairObj","order":12,"path":"objects/CrosshairObj/CrosshairObj.yy",},
     {"name":"LaserGun","order":17,"path":"sprites/LaserGun/LaserGun.yy",},
     {"name":"Boom","order":21,"path":"sprites/Boom/Boom.yy",},
