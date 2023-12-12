@@ -1,7 +1,7 @@
 x=Gamer.x;
 y=Gamer.y;
 
-image_angle += 15;
+image_angle += 20;
 
 fireDelay += -1;
 
