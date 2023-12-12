@@ -7,21 +7,21 @@ fireDelay += -1;
 recoil = max(0,recoil-1);
 
 if (fireDelay<0) {
-	fireDelay = 20;
-	for (var i=0; i<=1; i++) {
+	fireDelay = 10;
+	for (var i=0; i<=level; i++) {
 		with (instance_create_layer(x,y,"Bullets",LaserBulletObj)) {
-			spread = 10;
+			spread = 5;
 			relativeX = x - CrosshairObj.x;
 			relativeY = y - CrosshairObj.y;
-			image_xscale = sqrt(sqr(relativeX) + sqr(relativeY));
+			image_xscale = 1000;
 			direction = other.image_angle+(i*spread*(power(-1,i)));
 			image_angle = direction;
 		}
 		with (instance_create_layer(x,y,"Bullets",LaserBulletObj)) {
-			spread = 10;
+			spread = 5;
 			relativeX = x - CrosshairObj.x;
 			relativeY = y - CrosshairObj.y;
-			image_xscale = sqrt(sqr(relativeX) + sqr(relativeY));
+			image_xscale = 1000;
 			direction = other.image_angle-(i*spread*(power(-1,i)));
 			image_angle = direction;
 		}
