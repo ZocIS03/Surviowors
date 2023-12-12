@@ -28,10 +28,6 @@ y += vsp;
 //walk-end
 
 
-if(place_meeting(x,y,StoneBCKObj)) { walksp = 0.6*(hp/100); }
-else { walksp = 0.5*(hp/100); }
-
-
 if (directionChange <= 0) {
 	directionChange = random_range(40,80);
 	
