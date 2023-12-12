@@ -8,9 +8,17 @@ key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
 
 var moveHori = key_right - key_left;
-hsp = moveHori * walksp;
 var moveVerti = key_down - key_up;
+if(moveHori!=0 && moveVerti!=0)
+{
+hsp = moveHori * walksp / 1.41;
+vsp = moveVerti * walksp / 1.41;
+}
+else
+{
+hsp = moveHori * walksp;
 vsp = moveVerti * walksp;
+}
 
 
 
