@@ -1,2 +1,3 @@
-fireDelay = 20;
+fireDelay = 10;
 recoil = 3;
+level = 5;
