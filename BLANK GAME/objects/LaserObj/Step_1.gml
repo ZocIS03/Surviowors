@@ -7,7 +7,7 @@ fireDelay += -1;
 recoil = max(0,recoil-1);
 
 if (fireDelay<0) {
-	fireDelay = 10;
+	fireDelay = 30;
 	for (var i=0; i<=level; i++) {
 		with (instance_create_layer(x,y,"Bullets",LaserBulletObj)) {
 			spread = 5;
