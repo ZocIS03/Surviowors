@@ -34,6 +34,7 @@
     {"name":"Stone","order":4,"path":"sprites/Stone/Stone.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"SawBladeObj","order":17,"path":"objects/SawBladeObj/SawBladeObj.yy",},
+    {"name":"HolyHandGranade","order":19,"path":"sprites/HolyHandGranade/HolyHandGranade.yy",},
     {"name":"Enemy_D","order":13,"path":"sprites/Enemy_D/Enemy_D.yy",},
     {"name":"CrosshairObj","order":12,"path":"objects/CrosshairObj/CrosshairObj.yy",},
     {"name":"LaserGun","order":17,"path":"sprites/LaserGun/LaserGun.yy",},
