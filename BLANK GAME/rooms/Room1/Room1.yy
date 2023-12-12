@@ -1087,10 +1087,7 @@
     {"name":"inst_4489B122","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_70E99B6E","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1DEE9712","path":"rooms/Room1/Room1.yy",},
-<<<<<<< Updated upstream
-=======
     {"name":"inst_3A32330C","path":"rooms/Room1/Room1.yy",},
->>>>>>> Stashed changes
   ],
   "isDnd": false,
   "layers": [
