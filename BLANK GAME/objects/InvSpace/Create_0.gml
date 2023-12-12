@@ -8,6 +8,7 @@ for(i=0;i<InvSize;i++)
 	inventoryoffset[i][0]=0;
 	inventoryoffset[i][1]=0;
 	inventorymult[i]=1;
+	itemInventory[i]=0;
 }
 
 function IsInInventory(ObjWeapon)
@@ -15,7 +16,7 @@ function IsInInventory(ObjWeapon)
 	is=false;
 	for(i=0;i<InvSize;i++)
 	{
-		if(inventory[i]==ObjWeapon)
+		if(inventory[i]==ObjWeapon || itemInventory[i]==ObjWeapon)
 		{
 			is=true;
 			break;
@@ -38,7 +39,7 @@ function AddWeapon(OBJweapon)
 	if(zn!=-1)
 	{
 		inside=50;
-		inventory[i]=OBJweapon;
+		inventory[zn]=OBJweapon;
 		xs = sprite_get_width(weapon);
 		ys = sprite_get_height(weapon);
 		ox = sprite_get_xoffset(weapon);
@@ -52,5 +53,22 @@ function AddWeapon(OBJweapon)
 	}
 	
 }
+function AddItem(ObjItem)
+{
+	zn=-1;
+	for(i=0;i<InvSize;i++)
+	{
+		if(itemInventory[i]==0)
+		{
+			zn=i;
+			break;
+		}
+	}
+	if(zn!=-1)
+	{
+		itemInventory[zn]=ObjItem;
+	}
+}
+
 
 AddWeapon(GunObj);

@@ -43,6 +43,7 @@
     {"name":"Crosshair","order":14,"path":"sprites/Crosshair/Crosshair.yy",},
     {"name":"CameraObj","order":14,"path":"objects/CameraObj/CameraObj.yy",},
     {"name":"LaserObj","order":15,"path":"objects/LaserObj/LaserObj.yy",},
+    {"name":"HolyHandGranadeObj","order":20,"path":"objects/HolyHandGranadeObj/HolyHandGranadeObj.yy",},
     {"name":"Dirt","order":3,"path":"sprites/Dirt/Dirt.yy",},
     {"name":"Tracker","order":15,"path":"sprites/Tracker/Tracker.yy",},
     {"name":"LaserBuller","order":16,"path":"sprites/LaserBuller/LaserBuller.yy",},
