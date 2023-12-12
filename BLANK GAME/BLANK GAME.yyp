@@ -39,6 +39,7 @@
     {"id":{"name":"Item","path":"sprites/Item/Item.yy",},},
     {"id":{"name":"GunObj","path":"objects/GunObj/GunObj.yy",},},
     {"id":{"name":"DirtObj","path":"objects/DirtObj/DirtObj.yy",},},
+    {"id":{"name":"InvSpace","path":"objects/InvSpace/InvSpace.yy",},},
     {"id":{"name":"Gun","path":"sprites/Gun/Gun.yy",},},
     {"id":{"name":"Wood","path":"sprites/Wood/Wood.yy",},},
     {"id":{"name":"BulletObj","path":"objects/BulletObj/BulletObj.yy",},},
