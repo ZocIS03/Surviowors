@@ -54,5 +54,3 @@ function AddWeapon(OBJweapon)
 }
 
 AddWeapon(GunObj);
-AddWeapon(SawBladeObj);
-AddWeapon(LaserObj);
