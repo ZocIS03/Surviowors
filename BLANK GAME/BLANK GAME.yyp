@@ -53,6 +53,7 @@
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"SawBladeObj","path":"objects/SawBladeObj/SawBladeObj.yy",},},
     {"id":{"name":"WallObj","path":"objects/WallObj/WallObj.yy",},},
+    {"id":{"name":"HolyHandGranade","path":"sprites/HolyHandGranade/HolyHandGranade.yy",},},
     {"id":{"name":"Enemy_D","path":"sprites/Enemy_D/Enemy_D.yy",},},
     {"id":{"name":"CrosshairObj","path":"objects/CrosshairObj/CrosshairObj.yy",},},
     {"id":{"name":"LaserGun","path":"sprites/LaserGun/LaserGun.yy",},},
