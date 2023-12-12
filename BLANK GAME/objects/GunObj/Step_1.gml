@@ -6,7 +6,7 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 fireDelay += -1;
 recoil = max(0,recoil-1);
 
-if (mouse_check_button(mb_left)) && (fireDelay<0) {
+if (fireDelay<0) {
 	fireDelay = 40;
 	recoil = 3;
 	

@@ -1,4 +1,4 @@
 with (other)
 {
-	hp += -5;
+	hp += -2;
 }
