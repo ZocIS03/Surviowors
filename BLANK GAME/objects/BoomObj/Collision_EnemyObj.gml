@@ -1,4 +1,7 @@
-with (other)
+if (deltaTime<=0)
 {
-	hp += -300;
+	with (other)
+	 {
+		hp += -20*HolyHandGranadeObj.level;
+	}
 }
