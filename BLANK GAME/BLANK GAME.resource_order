@@ -48,6 +48,7 @@
     {"name":"Crosshair","order":14,"path":"sprites/Crosshair/Crosshair.yy",},
     {"name":"CameraObj","order":14,"path":"objects/CameraObj/CameraObj.yy",},
     {"name":"LaserObj","order":15,"path":"objects/LaserObj/LaserObj.yy",},
+    {"name":"TurretBoss","order":22,"path":"sprites/TurretBoss/TurretBoss.yy",},
     {"name":"BoomObj","order":24,"path":"objects/BoomObj/BoomObj.yy",},
     {"name":"HolyHandGranadeObj","order":20,"path":"objects/HolyHandGranadeObj/HolyHandGranadeObj.yy",},
     {"name":"Dirt","order":3,"path":"sprites/Dirt/Dirt.yy",},
