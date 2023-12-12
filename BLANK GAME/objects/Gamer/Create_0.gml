@@ -1,4 +1,4 @@
 hsp = 0;
 vsp = 0;
-walksp = 2;
+walksp = 1;
 
