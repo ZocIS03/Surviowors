@@ -69,6 +69,3 @@ function AddItem(ObjItem)
 		itemInventory[zn]=ObjItem;
 	}
 }
-
-
-AddWeapon(GunObj);
