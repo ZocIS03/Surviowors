@@ -19,3 +19,4 @@ if(itemInventory[0]!=-1)
 	{
 		draw_sprite_ext(object_get_sprite(itemInventory[0]),0,0*60+16,90,4,4,0,c_white,1);
 	}
+draw_text(10,150,Gamer.hp);
