@@ -22,7 +22,7 @@ if(delay>-40)
 	}
 }
 if(hotness>0)
-	hp=hp-(hotness*1);
+	hp=hp-hotness;
 if(deltaTime>0)
 {
 	deltaTime=deltaTime-1;
