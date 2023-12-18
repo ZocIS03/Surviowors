@@ -48,6 +48,7 @@
     {"name":"HolyHandGranadeAddObj","order":22,"path":"objects/HolyHandGranadeAddObj/HolyHandGranadeAddObj.yy",},
     {"name":"TurretGun1","order":23,"path":"sprites/TurretGun1/TurretGun1.yy",},
     {"name":"TurretBase1","order":22,"path":"sprites/TurretBase1/TurretBase1.yy",},
+    {"name":"SpawnerObj","order":30,"path":"objects/SpawnerObj/SpawnerObj.yy",},
     {"name":"Grass","order":2,"path":"sprites/Grass/Grass.yy",},
     {"name":"Gamer","order":1,"path":"objects/Gamer/Gamer.yy",},
     {"name":"Crosshair","order":14,"path":"sprites/Crosshair/Crosshair.yy",},

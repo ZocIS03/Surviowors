@@ -1,6 +1,7 @@
 hsp = lengthdir_x(walksp,direction);
 vsp = lengthdir_y(walksp,direction);
 
+/*
 //HORIZONTAL COLLISION INTERUPT
 if(place_meeting(x+hsp,y,WallObj))
 {
@@ -26,6 +27,10 @@ if(place_meeting(x,y+vsp,WallObj))
 }
 y += vsp;
 //walk-end
+*/
+
+x+= hsp;
+y+= vsp;
 
 /*
 if (directionChange <= 0) {
