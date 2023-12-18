@@ -22,7 +22,7 @@ if(delay>-40)
 	}
 }
 if(hotness>0)
-	hp=hp-(hotness*20);
+	hp=hp-(hotness*1);
 if(deltaTime>0)
 {
 	deltaTime=deltaTime-1;
@@ -30,4 +30,8 @@ if(deltaTime>0)
 	{
 		promien=false;
 	}
+}
+if(hp<=0)
+{
+	instance_destroy();
 }
