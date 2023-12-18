@@ -10,3 +10,5 @@ directionChange = random_range(40,60);
 direction = random_range(0,360);
 
 trackerIndex = 0;
+
+immunity = 0;
