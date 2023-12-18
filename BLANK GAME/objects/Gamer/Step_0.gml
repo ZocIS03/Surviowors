@@ -5,7 +5,7 @@ key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
 //WALK
-walkmods = 1 + TicTacsObj.getSpeed();
+walkmods = 1 * TicTacsObj.getSpeed();
 walkmods = walkmods * walksp;
 
 var moveHori = key_right - key_left;
@@ -46,3 +46,21 @@ if(place_meeting(x,y+vsp,WallObj))
 }
 y += vsp;
 //walk-end
+
+//enemy spawn
+if (deltaTime >= 5) {
+		deltaTime = 0;
+		dev_V = 0;
+		dev_H = 0;
+		if (random(1)>=0.5) { dev_V = -1; }
+		else { dev_V = 1; }
+		if (random(1)>=0.5) { dev_H = 1; }
+		else { dev_H = 0; }
+		if (dev_H) {
+			instance_create_layer(Gamer.x+(dev_V*350),Gamer.y+random_range(-300,300),"Enemies",EnemyObj);
+		}
+		else {
+			instance_create_layer(Gamer.x+random_range(-200,200),Gamer.y+(dev_V*300),"Enemies",EnemyObj);
+		}
+}
+deltaTime+=1;
