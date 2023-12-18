@@ -67,6 +67,7 @@
     {"id":{"name":"HolyHandGranadeAddObj","path":"objects/HolyHandGranadeAddObj/HolyHandGranadeAddObj.yy",},},
     {"id":{"name":"TurretGun1","path":"sprites/TurretGun1/TurretGun1.yy",},},
     {"id":{"name":"TurretBase1","path":"sprites/TurretBase1/TurretBase1.yy",},},
+    {"id":{"name":"SpawnerObj","path":"objects/SpawnerObj/SpawnerObj.yy",},},
     {"id":{"name":"Grass","path":"sprites/Grass/Grass.yy",},},
     {"id":{"name":"Gamer","path":"objects/Gamer/Gamer.yy",},},
     {"id":{"name":"Crosshair","path":"sprites/Crosshair/Crosshair.yy",},},

@@ -1,3 +1,4 @@
+
 kierunekDoGracza = point_direction(x,y,Gamer.x,Gamer.y);
 if(abs(kierunek-kierunekDoGracza)>rotation)
 {
